@@ -1,0 +1,66 @@
+body {
+        height: auto;
+        background-image: url("img/background.jpg");
+        color: white;
+}
+header{ 
+    font-size: 30pt;
+    margin: 2px auto;
+    text-align: center;
+}
+.main{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 40px;
+   
+}
+.items{
+    margin: 10px;
+    
+}
+
+.main .item {
+    margin: 15px;
+    align-items: center;
+}
+
+.floatimage{
+    float: right;
+    max-width: 30%;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    min-width: 10%;
+}
+
+.right{
+    display: flex;
+    flex-direction: column-reverse;
+    min-width: 10%;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: lavender;
+}
+
+a:hover{
+    color: tomato;
+}
+
+footer{
+    font-size: 20pt;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-around;
+}
+
